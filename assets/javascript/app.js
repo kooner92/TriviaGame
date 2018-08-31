@@ -102,8 +102,8 @@ var trivia = [
     $("#question").html(trivia[6].question+"<br>"+"</br>")
     $("#options").prepend(trivia[6].options+"<br>"+"</br>")
     
-    $("#question").html(trivia[7].question+"<br>"+"</br>")
-    $("#options").prepend(trivia[7].options+"<br>"+"</br>")
+    $("#question").html(trivia[0].question+"<br>"+"</br>")
+    $("#options").prepend(trivia[0].options+"<br>"+"</br>")
     
    console.log(trivia.questions)
    console.log(trivia.options)
