@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="./assets/javascript/app.js"></script>  
     
     <title>Document</title>
@@ -23,13 +23,17 @@
               <h2>Trivia Game</h2>
               <p id="time">Seconds left: <span id="timer"></span></p>
               <p id="question"></p>
+              <div id="options" class="btn btn-outline-success mb-3">
+                  <button type="button" class="btn btn-warning btn-lg"></button>
+                  <button type="button" class="btn btn-warning btn-lg"></button>
+                  <button type="button" class="btn btn-warning btn-lg"></button>
+                  <button type="button" class="btn btn-warning btn-lg"></button>
+                </div>
             </div>
             <div id="results">
             </div>
           <div class="row">
-            <div id="choices">
-              <button id="start" class="btn-primary">Start Game</button>
-            </div>
+              <button id="start" class="btn-primary btn-lg">Start Game</button>
           </div>
         </div>
     
